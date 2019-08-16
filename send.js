@@ -37,7 +37,7 @@
                 }
             }
         };
-        xhttp.open("GET", "http://localhost:3030/search?q=" + currentQ.replace(/’/gm, '\'').replace(/–/gm, '-'), true);
+        xhttp.open("GET", "https://portabeast:3030/search?q=" + currentQ.replace(/’/gm, '\'').replace(/–/gm, '-'), true);
         xhttp.send();
     }
 
